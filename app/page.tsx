@@ -73,7 +73,7 @@ export default function Home() {
       <section className="overview-section" id="overview">
         <div className="section-kicker light">01 / PROJECT OVERVIEW</div>
         <div className="overview-head">
-          <h2>一次跨品牌合作，<br />一条完整的转化闭环。</h2>
+          <h2>从新客礼遇出发，<br />串联完整服务链路。</h2>
           <p>
             面向招商银行新客，以小天才儿童手表作为活动权益，通过微信小程序连接用户、银行、电信与硬件厂商，完成资格校验、商品申领、支付签约、物流交付及售后管理。
           </p>
