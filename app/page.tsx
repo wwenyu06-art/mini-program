@@ -168,7 +168,7 @@ export default function Home() {
           <section className="tab-panel panel-manage">
             <div className="panel-copy">
               <span>ORDER MANAGEMENT</span>
-              <h3>让每一种状态，<br />都能被快速确认。</h3>
+              <h3>标准化状态体系，实现高效识别与感知</h3>
               <p>账单、发票与物流统一使用卡片化信息结构，以蓝色表示服务状态，橙色强调金额与提醒。</p>
               <ul><li><WalletCards size={16} /> 分期账单</li><li><ReceiptText size={16} /> 发票申请</li><li><Truck size={16} /> 物流轨迹</li></ul>
             </div>
@@ -181,8 +181,8 @@ export default function Home() {
           <section className="tab-panel product-panel panel-product">
             <div className="panel-copy">
               <span>PRODUCT STORY</span>
-              <h3>让核心卖点，<br />在滑动中逐一展开。</h3>
-              <p>首屏聚焦产品价值，用连续场景卡片呈现防水、定位、视频通话与零钱管理能力。</p>
+              <h3>滑动浏交互，分层释放产品核心价值</h3>
+              <p>首屏聚焦产品价值，采用横向滑动卡片模式，模块化展示手表防水、AI 定位、高清通话、零钱管理等核心能力，降低信息理解成本。</p>
             </div>
             <div className="feature-stack">
               <figure><img src="/assets/product-waterproof.png" alt="手表游泳级防水卖点" /></figure>
@@ -222,8 +222,14 @@ export default function Home() {
           </article>
         </div>
         <div className="icon-rule">
-          {[['01', '按钮'], ['02', '表单'], ['03', '弹窗'], ['04', '状态'], ['05', '导航']].map(([n, label]) => (
-            <div key={n}><span>{n}</span><strong>{label}</strong><small>统一圆角 / 色彩 / 反馈</small></div>
+          {[
+            ['01', '按钮', '统一圆角 / 色彩 / 状态'],
+            ['02', '表单', '统一控件 / 校验 / 交互'],
+            ['03', '弹窗', '统一遮罩 / 层级 / 操作'],
+            ['04', '状态', '统一标签 / 语义 / 结果'],
+            ['05', '导航', '统一布局 / 路径 / 逻辑'],
+          ].map(([n, label, rule]) => (
+            <div key={n}><span>{n}</span><strong>{label}</strong><small>{rule}</small></div>
           ))}
         </div>
       </section>
@@ -235,8 +241,8 @@ export default function Home() {
         </div>
         <div className="campaign-copy">
           <div className="section-kicker light">06 / CAMPAIGN VISUAL</div>
-          <h2>先用情绪吸引，<br />再用信息说服。</h2>
-          <p>海报采用夏日亲子场景建立轻松氛围，首屏突出“新客低价分期 + 联名礼包”的核心利益点，随后依次解释产品价值、电信套餐与活动流程。</p>
+          <h2>以情绪建立感知，结构化信息支撑转化决策</h2>
+          <p>活动海报运用夏日亲子场景营造轻松的营销氛围，首屏前置展示新客分期优惠、联名礼包等核心用户利益；页面采用长图分段叙事结构，逐层输出产品价值、套餐权益与活动参与规则，引导用户完整理解业务，降低转化决策门槛。</p>
           <div className="poster-points">
             <div><ScanLine size={20} /><span><b>01</b>利益点前置</span></div>
             <div><MapPin size={20} /><span><b>02</b>长图分段阅读</span></div>
@@ -249,7 +255,7 @@ export default function Home() {
         <img src="/assets/mascot-left.png" alt="小招喵 IP 形象" />
         <div>
           <p>FINAL OUTCOME</p>
-          <h2>让复杂的协作，<br />成为简单的体验。</h2>
+          <h2>整合多方业务链路，依托完整的视觉体系，实现简洁高效的终端体验。</h2>
           <div className="outcome-tags"><span>统一视觉语言</span><span>完整转化路径</span><span>多方流程可视化</span></div>
         </div>
         <img src="/assets/mascot-right.png" alt="挥手的小招喵 IP 形象" />
