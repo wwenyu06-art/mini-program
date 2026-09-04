@@ -16,45 +16,52 @@ export default function Home() {
   return (
     <main>
       <section className="hero" id="top">
-        <nav className="nav-shell" aria-label="作品导航">
-          <a className="brand" href="#top" aria-label="返回首页">
-            <span className="brand-mark">M</span>
-            <span>MY PROJECT / 2025</span>
-          </a>
-          <div className="nav-links">
-            <a href="#overview">项目概览</a>
-            <a href="#experience">体验设计</a>
-            <a href="#system">视觉系统</a>
-          </div>
-        </nav>
+        <video className="hero-video" autoPlay muted loop playsInline poster="/assets/product-video.png" aria-hidden="true">
+          <source src="/assets/hero-blue-loop.mp4" type="video/mp4" />
+        </video>
+        <div className="hero-overlay" />
 
-        <div className="hero-grid">
-          <div className="hero-copy">
-            <p className="eyebrow">招商银行 × 中国电信 × 小天才</p>
-            <h1>
-              把一份新客好礼，
-              <span>设计成完整体验。</span>
-            </h1>
-            <p className="hero-intro">
-              从活动曝光、资格申领到订单履约，将银行、电信与硬件厂商连接在一条清晰、可信赖的用户路径中。
-            </p>
-            <div className="hero-meta" aria-label="项目信息">
-              <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
-              <div><small>SCOPE</small><strong>MINI PROGRAM</strong></div>
-              <div><small>PLATFORM</small><strong>WECHAT</strong></div>
+        <div className="site-shell hero-shell">
+          <nav className="nav-shell" aria-label="作品导航">
+            <a className="brand" href="#top" aria-label="返回首页">
+              <span className="brand-mark">M</span>
+              <span>PORTFOLIO · 2025</span>
+            </a>
+            <div className="nav-links">
+              <a href="#overview">项目概览</a>
+              <a href="#experience">体验设计</a>
+              <a href="#system">视觉系统</a>
             </div>
-          </div>
+            <a className="contact-button" href="#contact">联系我 <ArrowDownRight size={16} /></a>
+          </nav>
 
-          <div className="hero-visual" aria-label="项目界面预览">
-            <div className="sun-orbit" />
-            <div className="phone-card phone-main">
-              <img src="/assets/order-submit.png" alt="小程序提交订单界面" />
+          <div className="hero-grid">
+            <div className="hero-copy">
+              <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
+              <h1>
+                新客礼遇
+                <span>小程序设计</span>
+              </h1>
+              <p className="hero-intro">
+                将用户、银行、电信与硬件厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
+              </p>
+              <div className="hero-meta" aria-label="项目信息">
+                <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
+                <div><small>SCOPE</small><strong>MINI PROGRAM</strong></div>
+                <div><small>PLATFORM</small><strong>WECHAT</strong></div>
+              </div>
             </div>
-            <div className="poster-card">
-              <img src="/assets/campaign-poster.png" alt="活动引流海报" />
+
+            <div className="hero-visual" aria-label="项目界面预览">
+              <div className="phone-card phone-main">
+                <img src="/assets/order-submit.png" alt="小程序提交订单界面" />
+              </div>
+              <div className="phone-card phone-secondary">
+                <img src="/assets/logistics.png" alt="小程序物流跟踪界面" />
+              </div>
+              <img className="mascot mascot-left" src="/assets/mascot-left.png" alt="小招喵 IP 形象" />
+              <div className="project-index"><span>CASE STUDY</span><strong>01</strong></div>
             </div>
-            <img className="mascot mascot-left" src="/assets/mascot-left.png" alt="招商银行小招喵 IP 形象" />
-            <div className="project-index">CASE<br />01</div>
           </div>
         </div>
 
@@ -197,15 +204,15 @@ export default function Home() {
         <div className="section-kicker">05 / VISUAL SYSTEM</div>
         <div className="system-head">
           <h2>亲子氛围感，<br />遇见金融秩序感。</h2>
-          <p>以柔和天空蓝作为大面积环境色，招商红强化品牌识别，活力橙负责行动与金额提示。圆角白色卡片承载复杂信息，让营销视觉与业务可读性保持平衡。</p>
+          <p>以品牌蓝渐变建立可信而轻快的科技氛围，活力橙负责行动与金额提示。圆角白色卡片承载复杂信息，让营销视觉与业务可读性保持平衡。</p>
         </div>
         <div className="system-grid">
           <article className="palette-card">
             <div className="palette-title"><span>COLOR PALETTE</span><strong>明亮、可信、年轻</strong></div>
             <div className="swatches">
-              <div className="swatch red"><span>#C91732</span></div>
-              <div className="swatch blue"><span>#3D83F7</span></div>
-              <div className="swatch orange"><span>#FF6B22</span></div>
+              <div className="swatch blue-start"><span>#2D5CED</span></div>
+              <div className="swatch blue-end"><span>#1EA0FA</span></div>
+              <div className="swatch orange"><span>#FD6E00</span></div>
               <div className="swatch sky"><span>#EAF6FF</span></div>
             </div>
           </article>
@@ -243,7 +250,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="closing-section">
+      <section className="closing-section" id="contact">
         <img src="/assets/mascot-left.png" alt="小招喵 IP 形象" />
         <div>
           <p>FINAL OUTCOME</p>
