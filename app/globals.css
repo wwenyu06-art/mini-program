@@ -254,6 +254,7 @@ img { display: block; max-width: 100%; }
 .closing-section > img { position: relative; z-index: 1; align-self: end; width: 100%; max-width: 420px; filter: drop-shadow(0 24px 24px rgba(0,48,126,.28)); }
 .closing-section > div:not(.circular-text) { position: relative; z-index: 2; }
 .closing-section h2 { width: min(100%, 539.55px); margin-left: auto; margin-right: auto; font-size: 50px; line-height: 1.4; }
+.closing-gradient-title { width: 100%; max-width: 100%; }
 .closing-section > img:first-of-type { transform: rotate(-7deg) translateY(40px); }
 .closing-section > img:last-of-type { transform: rotate(8deg) translateY(40px); }
 .closing-section p { margin: 0 0 28px; color: #ffd2ad; font: 800 11px/1 Arial, sans-serif; letter-spacing: .17em; }

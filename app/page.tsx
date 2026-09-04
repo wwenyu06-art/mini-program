@@ -11,6 +11,7 @@ import {
 import FloatingNav from './FloatingNav';
 import WarpText from '../components/WarpText';
 import CircularText from '../components/CircularText';
+import GradientText from '../components/GradientText';
 
 export default function Home() {
   return (
@@ -278,7 +279,19 @@ export default function Home() {
         <img src="/assets/mascot-left.png" alt="小招喵 IP 形象" />
         <div>
           <p>FINAL OUTCOME</p>
-          <h2>整合多方业务链路，依托完整的视觉体系，实现简洁高效的终端体验。</h2>
+          <h2>
+            <GradientText
+              colors={['#ffffff', '#8eebff', '#ffd2ad', '#ffffff']}
+              animationSpeed={5}
+              direction="diagonal"
+              pauseOnHover
+              yoyo
+              showBorder={false}
+              className="closing-gradient-title"
+            >
+              整合多方业务链路，依托完整的视觉体系，实现简洁高效的终端体验。
+            </GradientText>
+          </h2>
           <div className="outcome-tags"><span>统一视觉语言</span><span>完整转化路径</span><span>多方流程可视化</span></div>
         </div>
         <img src="/assets/mascot-right.png" alt="挥手的小招喵 IP 形象" />
