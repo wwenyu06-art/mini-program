@@ -9,6 +9,7 @@ import {
   WalletCards,
 } from 'lucide-react';
 import FloatingNav from './FloatingNav';
+import WarpText from '../components/WarpText';
 
 export default function Home() {
   return (
@@ -242,7 +243,25 @@ export default function Home() {
         </div>
         <div className="campaign-copy">
           <div className="section-kicker light">06 / CAMPAIGN VISUAL</div>
-          <h2>以情绪建立感知，结构化信息支撑转化决策</h2>
+          <h2>
+            <WarpText
+              text={'以情绪建立感知，\n结构化信息支撑\n转化决策'}
+              color="#ffffff"
+              warpStrength={0.08}
+              warpScale={1.7}
+              speed={0.55}
+              pointerInfluence={0.42}
+              pointerStrength={0.38}
+              refraction={0.018}
+              ripple
+              fontSize="clamp(42px, 4.95vw, 65.66px)"
+              fontWeight={500}
+              fontFamily={'"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif'}
+              letterSpacing="-0.045em"
+              lineHeight={1.4}
+              className="campaign-warp-text"
+            />
+          </h2>
           <p>活动海报运用夏日亲子场景营造轻松的营销氛围，首屏前置展示新客分期优惠、联名礼包等核心用户利益；页面采用长图分段叙事结构，逐层输出产品价值、套餐权益与活动参与规则，引导用户完整理解业务，降低转化决策门槛。</p>
           <div className="poster-points">
             <div><ScanLine size={20} /><span><b>01</b>利益点前置</span></div>

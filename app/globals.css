@@ -241,6 +241,7 @@ img { display: block; max-width: 100%; }
 .campaign-cat { position: absolute; z-index: 2; width: min(18vw, 250px); right: var(--page-pad); bottom: 18px; filter: drop-shadow(0 20px 20px rgba(0,0,0,.4)); }
 .campaign-copy > p { margin-top: 30px; font-size: 17px; font-weight: 300; }
 .campaign-copy h2 { width: min(100%, 556.97px); margin-top: 34px; font-size: clamp(42px, 4.95vw, 65.66px); line-height: 1.4; font-weight: 500; }
+.campaign-warp-text { height: clamp(230px, 23vw, 310px); min-height: 0; }
 .poster-points { margin-top: 52px; border-top: 1px solid rgba(255,255,255,.2); }
 .poster-points div { padding: 22px 0; border-bottom: 1px solid rgba(255,255,255,.2); display: grid; grid-template-columns: 24px 1fr; align-items: center; gap: 18px; }
 .poster-points svg { width: 22px; height: 22px; color: var(--orange); }
