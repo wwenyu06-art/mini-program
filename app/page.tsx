@@ -19,6 +19,11 @@ export default function Home() {
         <video className="hero-video" autoPlay muted loop playsInline poster="/assets/product-video.png" aria-hidden="true">
           <source src="/assets/hero-blue-loop.mp4" type="video/mp4" />
         </video>
+        <img
+          className="hero-showcase"
+          src="/assets/hero-reference-composite.png"
+          alt="悬浮手机展示小程序引导页与输入验证码页"
+        />
         <div className="hero-overlay" />
 
         <div className="site-shell hero-shell">
@@ -39,11 +44,11 @@ export default function Home() {
             <div className="hero-copy">
               <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
               <h1>
-                新客礼遇
+                招商银行新客礼遇
                 <span>小程序设计</span>
               </h1>
               <p className="hero-intro">
-                将用户、银行、电信与硬件厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
+                将用户、银行、电信与手表厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
               </p>
               <div className="hero-meta" aria-label="项目信息">
                 <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
@@ -52,14 +57,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="hero-visual" aria-label="引导页与验证码页真机界面预览">
-              <img
-                className="hero-showcase"
-                src="/assets/hero-reference-composite.png"
-                alt="悬浮手机展示小程序引导页与输入验证码页"
-              />
-              <div className="project-index"><span>CASE STUDY</span><strong>01</strong></div>
-            </div>
           </div>
         </div>
 
