@@ -8,10 +8,12 @@ import {
   Truck,
   WalletCards,
 } from 'lucide-react';
+import FloatingNav from './FloatingNav';
 
 export default function Home() {
   return (
     <main>
+      <FloatingNav />
       <section className="hero" id="top">
         <div className="hero-media">
           <video className="hero-video" autoPlay muted loop playsInline poster="/assets/product-video.png" aria-hidden="true">
@@ -237,7 +239,6 @@ export default function Home() {
       <section className="campaign-section">
         <div className="campaign-poster-wrap">
           <div className="poster-window"><img src="/assets/campaign-poster.png" alt="儿童手表礼包活动引流长海报" /></div>
-          <img className="campaign-cat" src="/assets/mascot-right.png" alt="佩戴儿童手表的小招喵 IP 形象" />
         </div>
         <div className="campaign-copy">
           <div className="section-kicker light">06 / CAMPAIGN VISUAL</div>
@@ -249,6 +250,7 @@ export default function Home() {
             <div><WalletCards size={20} /><span><b>03</b>领取入口重复露出</span></div>
           </div>
         </div>
+        <img className="campaign-cat" src="/assets/mascot-right.png" alt="佩戴儿童手表的小招喵 IP 形象" />
       </section>
 
       <section className="closing-section" id="contact">
@@ -262,8 +264,8 @@ export default function Home() {
       </section>
 
       <footer>
-        <span>招商银行 × 中国电信 × 小天才</span>
-        <span>MINI PROGRAM UI/UX CASE STUDY</span>
+        <span>王文毓 18818996367 期待您的联系</span>
+        <span>18818996367@163.com</span>
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>
