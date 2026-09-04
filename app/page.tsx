@@ -52,14 +52,12 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="hero-visual" aria-label="项目界面预览">
-              <div className="phone-card phone-main">
-                <img src="/assets/order-submit.png" alt="小程序提交订单界面" />
-              </div>
-              <div className="phone-card phone-secondary">
-                <img src="/assets/logistics.png" alt="小程序物流跟踪界面" />
-              </div>
-              <img className="mascot mascot-left" src="/assets/mascot-left.png" alt="小招喵 IP 形象" />
+            <div className="hero-visual" aria-label="引导页与验证码页真机界面预览">
+              <img
+                className="hero-showcase"
+                src="/assets/hero-reference-composite.png"
+                alt="悬浮手机展示小程序引导页与输入验证码页"
+              />
               <div className="project-index"><span>CASE STUDY</span><strong>01</strong></div>
             </div>
           </div>
