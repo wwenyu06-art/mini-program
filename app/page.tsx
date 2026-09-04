@@ -2,14 +2,11 @@ import {
   ArrowDownRight,
   ArrowRight,
   Check,
-  Layers3,
   MapPin,
   ReceiptText,
   ScanLine,
-  ShieldCheck,
   Truck,
   WalletCards,
-  Zap,
 } from 'lucide-react';
 
 export default function Home() {
@@ -29,7 +26,7 @@ export default function Home() {
             <nav className="nav-shell" aria-label="作品导航">
               <a className="brand" href="#top" aria-label="返回首页">
                 <span className="brand-mark">M</span>
-                <span>PORTFOLIO · 2025</span>
+                <span>PORTFOLIO · 2026</span>
               </a>
               <div className="nav-links">
                 <a href="#overview">项目概览</a>
@@ -44,7 +41,7 @@ export default function Home() {
             <div className="site-shell hero-info-shell">
               <div className="hero-copy">
                 <div className="hero-title-block">
-                  <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
+                  <p className="eyebrow"><span />招商银行 &amp; 中国电信 &amp; 小天才</p>
                   <h1>
                     招商银行新客礼遇
                     <span>小程序设计</span>
@@ -73,7 +70,7 @@ export default function Home() {
       <section className="overview-section" id="overview">
         <div className="section-kicker light">01 / PROJECT OVERVIEW</div>
         <div className="overview-head">
-          <h2>从新客礼遇出发，<br />串联完整服务链路。</h2>
+          <h2>从用户体验出发，<br />串联完整服务链路。</h2>
           <p>
             面向招商银行新客，以小天才儿童手表作为活动权益，通过微信小程序连接用户、银行、电信与硬件厂商，完成资格校验、商品申领、支付签约、物流交付及售后管理。
           </p>
@@ -91,26 +88,26 @@ export default function Home() {
       <section className="challenge-section">
         <div className="section-kicker">02 / THE CHALLENGE</div>
         <div className="split-title">
-          <h2>营销要有吸引力，<br />金融流程更要有确定性。</h2>
+          <h2>赋能吸引力营销，<br />确定性金融流程。</h2>
           <p>
             项目不是单纯的商品展示，而是一套涉及资格、支付、合规与履约的复杂流程。设计需要同时照顾用户的轻松感知与多方业务的严谨表达。
           </p>
         </div>
         <div className="challenge-cards">
           <article>
-            <span><Zap size={22} />01</span>
-            <h3>让价值一眼被看见</h3>
-            <p>把联名礼遇、分期权益与产品卖点转化为清晰的第一视觉焦点。</p>
+            <span className="challenge-index">01</span>
+            <div className="challenge-art"><img src="/assets/challenge-value-3d-v2.png" alt="礼盒与儿童手表立体图形" /></div>
+            <div className="challenge-card-copy"><h3>让价值一眼被看见</h3><p>把联名礼遇、分期权益与产品卖点转化为清晰的第一视觉焦点。</p></div>
           </article>
           <article>
-            <span><ShieldCheck size={22} />02</span>
-            <h3>让复杂规则易于理解</h3>
-            <p>用信息分组、状态反馈和逐步引导承载金融产品的合规信息。</p>
+            <span className="challenge-index">02</span>
+            <div className="challenge-art"><img src="/assets/challenge-rules-3d-v2.png" alt="盾牌与规则表单立体图形" /></div>
+            <div className="challenge-card-copy"><h3>让复杂规则易于理解</h3><p>用信息分组、状态反馈和逐步引导承载金融产品的合规信息。</p></div>
           </article>
           <article>
-            <span><Layers3 size={22} />03</span>
-            <h3>让多方系统保持一致</h3>
-            <p>建立统一控件与页面模板，保证前后台协作和多状态交付效率。</p>
+            <span className="challenge-index">03</span>
+            <div className="challenge-art"><img src="/assets/challenge-system-3d-v2.png" alt="多方系统连接立体图形" /></div>
+            <div className="challenge-card-copy"><h3>让多方系统保持一致</h3><p>建立统一控件与页面模板，保证前后台协作和多状态交付效率。</p></div>
           </article>
         </div>
       </section>
