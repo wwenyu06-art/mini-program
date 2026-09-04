@@ -16,31 +16,33 @@ export default function Home() {
   return (
     <main>
       <section className="hero" id="top">
-        <video className="hero-video" autoPlay muted loop playsInline poster="/assets/product-video.png" aria-hidden="true">
-          <source src="/assets/hero-blue-loop.mp4" type="video/mp4" />
-        </video>
-        <img
-          className="hero-showcase"
-          src="/assets/hero-reference-composite.png"
-          alt="悬浮手机展示小程序引导页与输入验证码页"
-        />
-        <div className="hero-overlay" />
+        <div className="hero-media">
+          <video className="hero-video" autoPlay muted loop playsInline poster="/assets/product-video.png" aria-hidden="true">
+            <source src="/assets/hero-blue-loop.mp4" type="video/mp4" />
+          </video>
+          <img
+            className="hero-showcase"
+            src="/assets/hero-reference-composite.png"
+            alt="悬浮手机展示小程序引导页与输入验证码页"
+          />
+          <div className="site-shell hero-nav-shell">
+            <nav className="nav-shell" aria-label="作品导航">
+              <a className="brand" href="#top" aria-label="返回首页">
+                <span className="brand-mark">M</span>
+                <span>PORTFOLIO · 2025</span>
+              </a>
+              <div className="nav-links">
+                <a href="#overview">项目概览</a>
+                <a href="#experience">体验设计</a>
+                <a href="#system">视觉系统</a>
+              </div>
+              <a className="contact-button" href="#contact">联系我 <ArrowDownRight size={16} /></a>
+            </nav>
+          </div>
+        </div>
 
-        <div className="site-shell hero-shell">
-          <nav className="nav-shell" aria-label="作品导航">
-            <a className="brand" href="#top" aria-label="返回首页">
-              <span className="brand-mark">M</span>
-              <span>PORTFOLIO · 2025</span>
-            </a>
-            <div className="nav-links">
-              <a href="#overview">项目概览</a>
-              <a href="#experience">体验设计</a>
-              <a href="#system">视觉系统</a>
-            </div>
-            <a className="contact-button" href="#contact">联系我 <ArrowDownRight size={16} /></a>
-          </nav>
-
-          <div className="hero-grid">
+        <div className="hero-info">
+          <div className="site-shell hero-info-shell">
             <div className="hero-copy">
               <div className="hero-title-block">
                 <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
@@ -60,13 +62,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <a className="scroll-cue" href="#overview">
+              <span>SCROLL TO EXPLORE</span>
+              <ArrowDownRight size={20} />
+            </a>
           </div>
         </div>
-
-        <a className="scroll-cue" href="#overview">
-          <span>SCROLL TO EXPLORE</span>
-          <ArrowDownRight size={20} />
-        </a>
       </section>
 
       <section className="overview-section" id="overview">
