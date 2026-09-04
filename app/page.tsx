@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import FloatingNav from './FloatingNav';
 import WarpText from '../components/WarpText';
+import CircularText from '../components/CircularText';
 
 export default function Home() {
   return (
@@ -273,6 +274,7 @@ export default function Home() {
       </section>
 
       <section className="closing-section" id="contact">
+        <CircularText text="UI/UX EXPERIENCE" onHover="speedUp" spinDuration={20} className="closing-circular-text" />
         <img src="/assets/mascot-left.png" alt="小招喵 IP 形象" />
         <div>
           <p>FINAL OUTCOME</p>
