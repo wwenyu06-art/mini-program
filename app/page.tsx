@@ -120,8 +120,8 @@ export default function Home() {
         </div>
         <div className="journey">
           {[
-            ['01', '曝光', '渠道海报'],
-            ['02', '浏览', '权益与卖点'],
+            ['01', '活动曝光', '渠道海报'],
+            ['02', '用户浏览', '权益与卖点'],
             ['03', '提交申领', '校验与签约'],
             ['04', '订单管理', '账单 / 发票 / 物流'],
           ].map(([number, title, text], index) => (
@@ -134,15 +134,14 @@ export default function Home() {
         </div>
         <div className="flow-note">
           <span>DESIGN PRINCIPLE</span>
-          <p>每一步只呈现当下最重要的信息，让用户始终知道“正在做什么、为什么、下一步是什么”。</p>
+          <p>每一步都呈现当下最重要的信息，让用户始终知道“正在做什么、为什么、下一步是什么”。</p>
         </div>
       </section>
 
       <section className="experience-section" id="experience">
         <div className="section-kicker">04 / EXPERIENCE DESIGN</div>
         <div className="experience-head">
-          <div><p>核心界面展示</p><h2>一套界面，贯穿申领与履约。</h2></div>
-          <p>点击不同阶段，查看从活动资格到订单服务的完整移动端设计。</p>
+          <div><p>核心界面展示</p><h2>以一致的视觉语言，<br />让复杂流程清晰可见。</h2></div>
         </div>
         <div className="case-tabs">
           <input className="tab-radio" type="radio" name="case-stage" id="tab-apply" defaultChecked />
@@ -199,8 +198,8 @@ export default function Home() {
       <section className="system-section" id="system">
         <div className="section-kicker">05 / VISUAL SYSTEM</div>
         <div className="system-head">
-          <h2>亲子氛围感，<br />遇见金融秩序感。</h2>
-          <p>以品牌蓝渐变建立可信而轻快的科技氛围，活力橙负责行动与金额提示。圆角白色卡片承载复杂信息，让营销视觉与业务可读性保持平衡。</p>
+          <h2>设计规范·组件体系</h2>
+          <p>针对业务场景搭建视觉体系，以品牌蓝色渐变构建可信、轻量化的科技视觉基底，搭配活力橙作为行动主色，强化操作按钮、金额类重点信息的视觉引导，统一控件交互反馈，平衡营销视觉表现与业务信息可读性。</p>
         </div>
         <div className="system-grid">
           <article className="palette-card">
