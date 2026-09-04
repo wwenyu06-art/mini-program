@@ -39,33 +39,33 @@ export default function Home() {
               <a className="contact-button" href="#contact">联系我 <ArrowDownRight size={16} /></a>
             </nav>
           </div>
-        </div>
 
-        <div className="hero-info">
-          <div className="site-shell hero-info-shell">
-            <div className="hero-copy">
-              <div className="hero-title-block">
-                <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
-                <h1>
-                  招商银行新客礼遇
-                  <span>小程序设计</span>
-                </h1>
-              </div>
-              <div className="hero-detail-block">
-                <p className="hero-intro">
-                  将用户、银行、电信与手表厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
-                </p>
-                <div className="hero-meta" aria-label="项目信息">
-                  <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
-                  <div><small>SCOPE</small><strong>MINI PROGRAM</strong></div>
-                  <div><small>PLATFORM</small><strong>WECHAT</strong></div>
+          <div className="hero-info">
+            <div className="site-shell hero-info-shell">
+              <div className="hero-copy">
+                <div className="hero-title-block">
+                  <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
+                  <h1>
+                    招商银行新客礼遇
+                    <span>小程序设计</span>
+                  </h1>
+                </div>
+                <div className="hero-detail-block">
+                  <p className="hero-intro">
+                    将用户、银行、电信与手表厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
+                  </p>
+                  <div className="hero-meta" aria-label="项目信息">
+                    <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
+                    <div><small>SCOPE</small><strong>MINI PROGRAM</strong></div>
+                    <div><small>PLATFORM</small><strong>WECHAT</strong></div>
+                  </div>
                 </div>
               </div>
+              <a className="scroll-cue" href="#overview">
+                <span>SCROLL TO EXPLORE</span>
+                <ArrowDownRight size={20} />
+              </a>
             </div>
-            <a className="scroll-cue" href="#overview">
-              <span>SCROLL TO EXPLORE</span>
-              <ArrowDownRight size={20} />
-            </a>
           </div>
         </div>
       </section>
