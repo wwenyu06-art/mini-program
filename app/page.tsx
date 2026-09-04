@@ -42,21 +42,24 @@ export default function Home() {
 
           <div className="hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
-              <h1>
-                招商银行新客礼遇
-                <span>小程序设计</span>
-              </h1>
-              <p className="hero-intro">
-                将用户、银行、电信与手表厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
-              </p>
-              <div className="hero-meta" aria-label="项目信息">
-                <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
-                <div><small>SCOPE</small><strong>MINI PROGRAM</strong></div>
-                <div><small>PLATFORM</small><strong>WECHAT</strong></div>
+              <div className="hero-title-block">
+                <p className="eyebrow"><span />招商银行 × 中国电信 × 小天才</p>
+                <h1>
+                  招商银行新客礼遇
+                  <span>小程序设计</span>
+                </h1>
+              </div>
+              <div className="hero-detail-block">
+                <p className="hero-intro">
+                  将用户、银行、电信与手表厂商连接起来，打造从活动曝光到订单交付的完整转化体验。
+                </p>
+                <div className="hero-meta" aria-label="项目信息">
+                  <div><small>ROLE</small><strong>UI / VISUAL DESIGN</strong></div>
+                  <div><small>SCOPE</small><strong>MINI PROGRAM</strong></div>
+                  <div><small>PLATFORM</small><strong>WECHAT</strong></div>
+                </div>
               </div>
             </div>
-
           </div>
         </div>
 
