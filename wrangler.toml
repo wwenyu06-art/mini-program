@@ -1,0 +1,4 @@
+name = "mini-program"
+compatibility_date = "2026-09-05"
+pages_build_output_dir = "dist"
+main = "dist/server/_worker.js"
